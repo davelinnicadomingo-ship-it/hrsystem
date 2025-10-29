@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard UI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">Trusting Social AI Philippines</div>
+
+    <div class="company">
+      <img src="https://via.placeholder.com/35" class="company-icon">
+      <div>
+        <strong>Rocks Company</strong>
+        <small>Team • 20 Members</small>
+      </div>
+    </div>
+
+    <ul class="menu">
+      <li class="active">Dashboard</li>
+      <li>Employee</li>
+      <li>Recruitment</li>
+      <li>Payroll</li>
+      <li>Schedule</li>
+    </ul>
+
+    <div class="section-title">DEPARTMENT</div>
+    <ul class="menu small">
+      <li><span class="dot blue"></span> Bussiness and Marketing</li>
+      <li><span class="dot green"></span> Design</li>
+      <li><span class="dot orange"></span> Project Manager</li>
+      <li><span class="dot purple"></span> Human Resource</li>
+      <li><span class="dot cyan"></span> Development</li>
+    </ul>
+
+    <div class="footer-menu">
+      <li>Setting</li>
+      <li>Help Center</li>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+
+    <!-- Top Bar -->
+    <header class="topbar">
+      <input type="text" placeholder="Search keyword..." class="search">
+      <div class="user-actions">
+        <span class="icon">🔔</span>
+        <span class="icon">⚙️</span>
+      </div>
+    </header>
+
+    <!-- Analytics Cards -->
+    <div class="cards">
+      <div class="card blue-card">
+        <p>Total Employees</p>
+        <h2>104</h2>
+      </div>
+      <div class="card purple-card">
+        <p>Job Applicants</p>
+        <h2>1,839</h2>
+      </div>
+      <div class="card green-card">
+        <p>Total Payroll</p>
+        <h2>$324,920.83</h2>
+      </div>
+    </div>
+
+    <!-- Chart + Schedule Section -->
+    <div class="row">
+
+      <div class="chart-box">
+        <h3>Member Work Hours</h3>
+        <div class="chart-placeholder">[ Chart Placeholder ]</div>
+      </div>
+
+      <div class="events-box">
+        <h3>What's on in January?</h3>
+        <ul>
+          <li><strong>Elanoire Maggie</strong> — Sick Leave</li>
+          <li><strong>Kevin Malona</strong> — Annual Leave</li>
+          <li><strong>Jeremy Gemoy</strong> — Work From Home</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Employee List + Schedule -->
+    <div class="row">
+      <div class="employee-box">
+        <h3>Employee</h3>
+        <table>
+          <tr><td>Brooklyn Simmons</td><td>UI Designer</td><td><span class="tag green">Design</span></td></tr>
+          <tr><td>Cody Fisher</td><td>Front-End</td><td><span class="tag cyan">Development</span></td></tr>
+          <tr><td>Ralph Edwards</td><td>UX Designer</td><td><span class="tag green">Design</span></td></tr>
+        </table>
+      </div>
+
+      <div class="schedule-box">
+        <h3>Today Schedule</h3>
+        <div class="schedule-placeholder">[ Schedule Timeline Placeholder ]</div>
+      </div>
+    </div>
+
+  </main>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
